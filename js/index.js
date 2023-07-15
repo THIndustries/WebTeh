@@ -4,22 +4,22 @@
 // своей функции, пример: function Вашеимяфункциитут()"
 // Если не получается - использовуйте prompt и alert.
 
-// function movi () {
-//     var flag = true;
-//     var favoritMovie = "Спартак";
-//     while (flag) {
-//         let movieName = prompt("Введите название моего любимого фильма: ")
-//         if (movieName == "stop") {
-//             break;
-//         }else if (movieName == favoritMovie) {
-//             flag = false;
-//             alert("Верно! Мой любимый фильм - " + favoritMovie);
-//         }else {
-//             alert("Неверно! Попробуйте ещё раз! Или введите " + "stop");
-//         }
-//     }
-// }
-// movi();
+function movi () {
+    var flag = true;
+    var favoritMovie = "Спартак";
+    while (flag) {
+        let movieName = prompt("Введите название моего любимого фильма: ")
+        if (movieName == "stop") {
+            break;
+        }else if (movieName == favoritMovie) {
+            flag = false;
+            alert("Верно! Мой любимый фильм - " + favoritMovie);
+        }else {
+            alert("Неверно! Попробуйте ещё раз! Или введите " + "stop");
+        }
+    }
+}
+movi();
 
 
 
@@ -30,14 +30,14 @@
 // Выведите итоговый массив в документ, через всплывающее окно или в консоль.
 
 
-let arr = ["a","b","c"];
-arr[0] = "word";
-arr[1] = "new world company";
-arr[2] = "o";
+// let arr = ["a","b","c"];
+// arr[0] = "word";
+// arr[1] = "new world company";
+// arr[2] = "o";
 
-for (let i = 0; i < arr.length; i++) {
-    alert(arr[i]);    
-}
+// for (let i = 0; i < arr.length; i++) {
+//     alert(arr[i]);    
+// }
 
 // или
 // alert(arr);
