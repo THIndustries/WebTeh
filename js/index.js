@@ -4,22 +4,22 @@
 // своей функции, пример: function Вашеимяфункциитут()"
 // Если не получается - использовуйте prompt и alert.
 
-function movi () {
-    var flag = true;
-    var favoritMovie = "Спартак";
-    while (flag) {
-        let movieName = prompt("Введите название моего любимого фильма: ")
-        if (movieName == "stop") {
-            break;
-        }else if (movieName == favoritMovie) {
-            flag = false;
-            alert("Верно! Мой любимый фильм - " + favoritMovie);
-        }else {
-            alert("Неверно! Попробуйте ещё раз! Или введите " + "stop");
-        }
-    }
-}
-movi();
+// function movi () {
+//     var flag = true;
+//     var favoritMovie = "Спартак";
+//     while (flag) {
+//         let movieName = prompt("Введите название моего любимого фильма: ")
+//         if (movieName == "stop") {
+//             break;
+//         }else if (movieName == favoritMovie) {
+//             flag = false;
+//             alert("Верно! Мой любимый фильм - " + favoritMovie);
+//         }else {
+//             alert("Неверно! Попробуйте ещё раз! Или введите " + "stop");
+//         }
+//     }
+// }
+// movi();
 
 
 
